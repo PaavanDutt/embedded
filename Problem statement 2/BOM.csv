@@ -1,0 +1,15 @@
+Part Designator,Qty,Part / Suggested sourcing
+U1,1,Nordic nPM1100 QFN24 (recommended part: NPM1100-QDAB-R)
+L1,1,"2.2 µH power inductor (Isat >= 350 mA, e.g., TDK 2.2uH)"
+C_OUT,1,"10 µF MLCC X5R 0805 (e.g., Murata GRM21)"
+C_IN,1,10 µF MLCC X5R 0805 input cap
+C_DEC,1,0.1 µF MLCC 0603 decoupling
+R_ICHG,1,1.5 kΩ 0603 (sets ~200 mA charge current)
+LED_CHG,1,0805 LED (charge indicator)
+LED_PWR,1,0805 LED (power indicator)
+R_LED,2,1 kΩ 0603 (LED series resistor)
+R_DIV_TOP,1,47 kΩ 0603 (ADC divider top)
+R_DIV_BOT,1,100 kΩ 0603 (ADC divider bottom)
+C_DIV,1,10 nF 0603 (ADC filter cap)
+J1,1,"2-pin SMD input header (VBUS, GND)"
+J2,1,"6-pin SMD header for MCU signals (VOUT, VBAT, CHG, ERR, GND, MODE)"
